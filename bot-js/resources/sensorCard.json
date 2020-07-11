@@ -1,0 +1,38 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [{
+        "type": "TextBlock",
+        "isSubtle": true,
+        "text": "Seleccione un sensor:",
+        "wrap": true,
+        "maxLines": 0
+    }],
+    "actions": [{
+            "type": "Action.Submit",
+            "title": "Temperatura",
+            "data": "Temperatura"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Humedad",
+            "data": "Humedad"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Personas",
+            "data": "Personas"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Mujeres",
+            "data": "Mujeres"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Hombres",
+            "data": "Hombres"
+        }
+    ]
+}

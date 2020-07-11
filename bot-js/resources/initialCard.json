@@ -1,0 +1,48 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [{
+        "type": "TextBlock",
+        "isSubtle": true,
+        "text": "¿Qué puedo hacer para ayudarle el día de hoy?",
+        "wrap": true,
+        "maxLines": 0
+    }],
+    "actions": [{
+            "type": "Action.Submit",
+            "title": "Preguntas frecuentes",
+            "data": "¿Qué puedo preguntar?"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Monitorear sensores",
+            "data": "¿Qué sensores puedo monitorear?"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Traducir un texto",
+            "data": "¿Puede traducir un texto?"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Analizar una imagen",
+            "data": "¿Puede analizar una imagen?"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Predecir mi salario",
+            "data": "¿Puede predecir mi salario?"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Obtener tasa de cambio",
+            "data": "¿Puede indicarme la tasa de cambio del día?"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Solicitar certificado",
+            "data": "¿Puedo solicitar mi certificado?"
+        }
+    ]
+}
